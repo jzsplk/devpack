@@ -6,7 +6,7 @@ const graph = createGraph('./example/index.js');
 
 const res = bundle(graph);
 
-fs.rmSync('dist', { recursive: true, force: true });
+fs.rmSync('dist', {recursive: true, force: true });
 fs.mkdirSync('dist');
 fs.writeFile('./dist/bundle.js', res, (res) => {
     console.log('write bundle file res', res)

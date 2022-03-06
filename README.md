@@ -1,2 +1,3 @@
 # devpack
-mini pack for 
+
+mini pack for learn module bundler
