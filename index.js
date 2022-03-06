@@ -1,7 +1,6 @@
 // import {createGraph, bundle} from './src/minipack'
 const {createGraph,bundle} = require('./src/minipack')
 const fs = require('fs');
-const rimraf = require('rimraf');
 
 const graph = createGraph('./example/index.js');
 
